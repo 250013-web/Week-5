@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main () {
+    int n;
+    cin >> n;
+    if (n % 2 == 0) {
+        n--;
+        while (n > 0) {
+            cout << 'a';
+            n--;
+        }
+        cout << 'b';
+    } else {
+        while (n > 0) {
+            cout << 'a';
+            n--;
+        }
+    }
+    return 0;
+}
