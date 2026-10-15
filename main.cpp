@@ -1,9 +1,21 @@
 #include <iostream>
 using namespace std;
+// problem 7
 int main () {
     int n;
     cin >> n;
-    int a, b
+    int a, b;
+    cin >> a;
+    int m =1;
+    int c = 1;
+    if (b > a)
+        c ++
+    else
+        c = 0
+
+    if (c > m)
+
+        // to be finished
 
     return 0;
 /*
